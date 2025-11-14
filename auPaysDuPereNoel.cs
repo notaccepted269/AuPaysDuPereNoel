@@ -26,7 +26,6 @@ namespace AuPaysDuPereNoel
         EnTravail,
         EnAttente,
         EnRepos
-
     }
 
     // ============= CLASSE LETTRE =============
@@ -135,7 +134,7 @@ namespace AuPaysDuPereNoel
 
         public class Nain
     {
-        private const int DureeEmballageHeures = 2; // durée fixe pour emballer un cadeau
+        public const int DureeEmballageHeures = 2; // durée fixe pour emballer un cadeau
         public int Id { get; set; }
         public StatutEmploye Statut { get; set; }
         public Lettre LettreEnCours { get; set; }
